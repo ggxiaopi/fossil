@@ -345,7 +345,7 @@ namespace IconsBuilder
 		     // MainTexture.UV = SpriteHelper.GetUV(MyMapIconsIndex.Divination);
 		      MainTexture.UV = SpriteHelper.GetUV(MyMapIconsIndex.Arcanist);
                         MainTexture.Color = Color.Orange;
-                      Text = "FAFAFAFA";
+                      Text = "mageniubi";
                     break;
                 case ChestType.Perandus:
                     MainTexture.Size = settings.SizeChestIcon;

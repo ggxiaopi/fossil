@@ -342,8 +342,10 @@ namespace IconsBuilder
                  //   MainTexture.Color = Color.Pink;
                  //   if (FossilRarity.TryGetValue(Text, out var clr)) MainTexture.Color = clr;
                  //   MainTexture.Color = MainTexture.Color;
-		      MainTexture.UV = SpriteHelper.GetUV(MyMapIconsIndex.Divination);
-                      Text = "11111111";
+		     // MainTexture.UV = SpriteHelper.GetUV(MyMapIconsIndex.Divination);
+		      MainTexture.UV = SpriteHelper.GetUV(MyMapIconsIndex.Arcanist);
+                        MainTexture.Color = Color.Orange;
+                      Text = "FAFAFAFA";
                     break;
                 case ChestType.Perandus:
                     MainTexture.Size = settings.SizeChestIcon;
